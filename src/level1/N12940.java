@@ -11,7 +11,7 @@ public class N12940 {
 		if(m == 0){
 	        return n;
 	    }else{
-	        return gcd(b, a%b);
+	        return gcd(m,n%m);
 	    }
 	}
 }
